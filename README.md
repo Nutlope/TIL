@@ -20,3 +20,7 @@ https://stackoverflow.com/questions/700187/unicode-utf-ascii-ansi-format-differe
 Create a .gitignore file in your current repo if you want to ignore certain files and folders.
 Each file/folder should be on a seperate line and folders need to have a / at the end.
 To stop tracking a file that is currently tracked, use 'git rm --cached FILENAME'
+
+4. VSCode CTR-L not working to select line
+
+CMD-L shortcut to select a line didn't work on Vscode because a live share extension shortcut interfered. Deleted live share for now to get rid of the problem.

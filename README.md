@@ -1,5 +1,7 @@
 # TIL - New things I'm learning
 
+New things I'm learning and issued I run into in programming.
+
 1. Carriage Returns and Line feeds.
 
 Windows machines still have carriage return + line feed (\r\n) to end a new line while unix based systems have standerdized upon just line feed (\n)

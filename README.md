@@ -13,9 +13,9 @@ Windows machines still have carriage return + line feed (\r\n) to end a new line
    UTF-8 with signiture has a BOM (3 bytes in the beginning)
 
 Resources:
-https://csharpindepth.com/Articles/Unicode
-https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-https://stackoverflow.com/questions/700187/unicode-utf-ascii-ansi-format-differences
+- [Unicode](https://csharpindepth.com/Articles/Unicode)
+- [Unicode and Char sets by Joel](https://www.joelonsoftware.com/2003/10/08/_the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+- [ANSI vs Utf](https://stackoverflow.com/questions/700187/unicode-utf-ascii-ansi-format-differences)
 
 3. Gitignore files
 

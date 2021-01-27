@@ -26,3 +26,7 @@ To stop tracking a file that is currently tracked, use 'git rm --cached FILENAME
 ### 4. VSCode CMD-L not working
 
 CMD-L shortcut to select a line didn't work on Vscode because a live share extension shortcut interfered. Can either delete live share or change the live share keyboard shortcut to get rid of the problem.
+
+### 5. Setting upstream repos
+
+Use "git push --set-upstream <remote> <branch>" to use the <remote> repo as the new default when typing "git push".

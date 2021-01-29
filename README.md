@@ -1,18 +1,20 @@
-# TIL - New things I'm learning
+# TIL - Programming
 
-New things I'm learning and issued I run into in programming.
+A list of useful programming things I'm learning and issues I fixed.
 
 ### 1. Carriage Returns and Line feeds.
 
 Windows machines still have carriage return + line feed (\r\n) to end a new line while unix based systems have standerdized upon just line feed (\n)
 
 ### 2. Character Encoding
-   ANSI
-   ascii
-   unicode (UTF-8 vs UTF-8 w/ Signature)  
-   UTF-8 with signiture has a BOM (3 bytes in the beginning)
+
+- ANSI
+- Ascii
+- Unicode (UTF-8 vs UTF-8 w/ Signature)
+- UTF-8 with signiture has a BOM (3 bytes in the beginning)
 
 Resources:
+
 - [Unicode](https://csharpindepth.com/Articles/Unicode)
 - [Unicode and Char sets by Joel](https://www.joelonsoftware.com/2003/10/08/_the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - [ANSI vs Utf](https://stackoverflow.com/questions/700187/unicode-utf-ascii-ansi-format-differences)

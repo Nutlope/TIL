@@ -32,3 +32,8 @@ CMD-L shortcut to select a line didn't work on Vscode because a live share exten
 ### 5. Setting upstream repos
 
 Use "git push --set-upstream <remote> <branch>" to use the <remote> repo as the new default when typing "git push".
+
+### 6. Count the lines in a github repo
+
+$ git ls-files | xargs wc -l
+(only caviat is you need to have the files tracked in git)

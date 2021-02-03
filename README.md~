@@ -37,9 +37,3 @@ Use "git push --set-upstream <remote> <branch>" to use the <remote> repo as the 
 
 $ git ls-files | xargs wc -l
 (only caviat is you need to have the files tracked in git)
-
-### 7. Search bash commands you've written in the past.
-
-reverse-i-search: Search backward starting at the current line and moving ‘up’ through the history as necessary. This is an incremental search. (source)
-
-How to use: Press the ctrl key and the r key simultaneously.

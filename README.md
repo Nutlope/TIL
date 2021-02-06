@@ -40,6 +40,16 @@ $ git ls-files | xargs wc -l
 
 ### 7. Search bash commands you've written in the past.
 
-reverse-i-search: Search backward starting at the current line and moving ‘up’ through the history as necessary. This is an incremental search. (source)
+reverse-i-search: Search backward starting at the current line and moving ‘up’ through the history as necessary. This is an incremental search.
 
 How to use: Press the ctrl key and the r key simultaneously.
+
+### 8. Converting letters to Unicode
+
+When we want to convert letters to unicode or compare between them, we can use the [ord](https://docs.python.org/3/library/functions.html#ord) function in python. 
+
+```python
+# Example usage: 
+- ord('A') # 54
+- ord('B') - ord('A') # 1
+```

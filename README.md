@@ -57,3 +57,9 @@ When we want to convert letters to unicode or compare between them, we can use t
 ### 9. Investing Binary numbers
 
 To invert numbers, we can use the XOR bitwise operator (^1).
+
+### 10. Backdating git commits
+
+It's possible to backdate git commits by using the --date commit argument.
+
+Example: git commit --date="2004.07.14 13:00" -m "an old commit"

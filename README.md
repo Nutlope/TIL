@@ -46,10 +46,10 @@ How to use: Press the ctrl key and the r key simultaneously.
 
 ### 8. Converting letters to Unicode
 
-When we want to convert letters to unicode or compare between them, we can use the [ord](https://docs.python.org/3/library/functions.html#ord) function in python. 
+When we want to convert letters to unicode or compare between them, we can use the [ord](https://docs.python.org/3/library/functions.html#ord) function in python.
 
 ```python
-# Example usage: 
+# Example usage:
 - ord('A') # 54
 - ord('B') - ord('A') # 1
 ```
@@ -63,3 +63,13 @@ To invert numbers, we can use the XOR bitwise operator (^1).
 It's possible to backdate git commits by using the --date commit argument.
 
 Example: git commit --date="2004.07.14 13:00" -m "an old commit"
+
+### 11. Python program to exe
+
+Use pyinstaller to do this using the following command: % pyinstaller --onefile 'filename.py'
+
+### 12. Python program to perpetually scroll down
+
+Use pyautogui to do this. Can use this code:
+
+`while True: pyautogui.scroll(-50); pyautogui.time.sleep(0.2)`

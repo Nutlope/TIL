@@ -73,6 +73,19 @@ Use pyinstaller to do this using the following command: % pyinstaller --onefile 
 Use pyautogui to do this. Can use this code:
 
 `while True: pyautogui.scroll(-50); pyautogui.time.sleep(0.2)`
+
 ### 13. Use VPS to run very long tasks or cron jobs
 
 Use a VPS like Linode or Digital Ocean, spin up an Ubuntu server, and use [nohup](https://unix.stackexchange.com/questions/362115/how-to-keep-a-python-script-running-when-i-close-putty) to run it in the background.
+
+### 14. Copy files from local to remote ssh server (like a VPS)
+
+```bash
+# copy myfile.txt to remote server and place in /remote/server (will place in home if left unspecified).
+scp myfile.txt remoteuser@remoteserver:/remote/folder/
+
+# copy everything in current folder to remote server.
+scp * remoteuser@remoteserver:/remote/folder/
+```
+
+Credit to this [guide](https://www.simplified.guide/ssh/copy-file).

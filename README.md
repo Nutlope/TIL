@@ -78,6 +78,10 @@ Use pyautogui to do this. Can use this code:
 
 Use a VPS like Linode or Digital Ocean, spin up an Ubuntu server, and use [nohup](https://unix.stackexchange.com/questions/362115/how-to-keep-a-python-script-running-when-i-close-putty) to run it in the background.
 
+```bash
+nohup python myScript.py
+```
+
 ### 14. Copy files from local to remote ssh server (like a VPS)
 
 ```bash

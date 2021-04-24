@@ -54,7 +54,7 @@ When we want to convert letters to unicode or compare between them, we can use t
 - ord('B') - ord('A') # 1
 ```
 
-### 9. Investing Binary numbers
+### 9. Inverting Binary numbers
 
 To invert numbers, we can use the XOR bitwise operator (^1).
 

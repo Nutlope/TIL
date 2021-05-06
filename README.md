@@ -93,3 +93,9 @@ scp * remoteuser@remoteserver:/remote/folder/
 ```
 
 Credit to this [guide](https://www.simplified.guide/ssh/copy-file).
+
+### 15. Debugging python files
+
+Simply insert a "breakpoint()" in the code on a line, which will trigger a built in debugger, Pdb. Then, run your program and step through it using 'n' for next. You can also query variables at any point while stepping through.
+
+More commands can be found [here](https://docs.python.org/3/library/pdb.html)
